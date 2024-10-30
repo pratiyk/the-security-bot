@@ -18,8 +18,7 @@ BOT is a cybersecurity-focused chatbot designed to assist users with insights, t
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: Flask (Python)
 - **NLP Libraries**: NLTK, spaCy
-- **APIs**: Shodan API
-- **Deployment**: Heroku / GitHub Pages
+- **APIs**: Shodan API, OpenAI API
 
 ## Installation
 1. Clone the repository:
