@@ -1,7 +1,6 @@
 # BOT - the-security-bot
 
-![image](https://github.com/user-attachments/assets/686bd170-5e02-4efb-820c-ee34853e977f)
-
+![image](https://github.com/user-attachments/assets/3048765c-f4a8-48b6-b28b-7bb4cdaf75b1)
 
 ## Overview
 BOT is a cybersecurity-focused chatbot designed to assist users with insights, threat analyses, and best practices in cybersecurity. Powered by natural language processing (NLP) and machine learning, BOT delivers real-time information in an engaging, retro-themed user interface.
