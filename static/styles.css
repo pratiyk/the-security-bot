@@ -1,0 +1,108 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* Background */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(circle at top left, #003366, #001a33);
+    color: #ffffff;
+}
+
+/* Main container */
+.chat-container {
+    width: 450px;
+    max-width: 90%;
+    padding: 20px;
+    border: 3px solid #66b2ff;
+    border-radius: 12px;
+    background: linear-gradient(145deg, #004080, #0066cc);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6), inset 0 2px 6px rgba(255, 255, 255, 0.1);
+}
+
+/* Title */
+h1 {
+    font-size: 22px;
+    color: #ffcc00;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px #000;
+}
+
+/* Chatbox styles */
+#chatbox {
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 12px;
+    margin-bottom: 20px;
+    background-color: #001933;
+    border: 2px solid #66b2ff;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #e0e0e0;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Message styling */
+.user-message {
+    text-align: right;
+    color: #66ff66;
+    margin: 5px 0;
+    font-weight: bold;
+    text-shadow: 0 0 4px #003300;
+}
+.bot-message {
+    text-align: left;
+    color: #ffcc00;
+    margin: 5px 0;
+    text-shadow: 0 0 4px #4d4d00;
+}
+
+/* Input container */
+.input-container {
+    display: flex;
+    gap: 10px;
+}
+
+/* Input field styling */
+#messageInput {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 14px;
+    border: 2px solid #66b2ff;
+    border-radius: 6px;
+    background-color: #003366;
+    color: #e0e0e0;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.5);
+    outline: none;
+}
+
+/* Button styling */
+#sendButton {
+    padding: 10px;
+    font-size: 14px;
+    background: linear-gradient(145deg, #66ff66, #33cc33);
+    color: #0f0f0f;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4), inset 0 2px 4px rgba(255, 255, 255, 0.2);
+    font-weight: bold;
+    text-shadow: 1px 1px #003300;
+}
+
+#sendButton:hover {
+    background: linear-gradient(145deg, #33cc33, #66ff66);
+}
+
+#sendButton:active {
+    background: #29a329;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5), inset 0 2px 6px rgba(0, 0, 0, 0.2);
+    transform: translateY(1px);
+}
